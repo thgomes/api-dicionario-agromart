@@ -1,0 +1,20 @@
+POST http://localhost:8080/csas/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "nomeCSA": "Nova CSA",
+    "responsavelCSA": "Responsável",
+    "emailCSA": "email@csa.com",
+    "urlBase": "http://csa.com"
+}
+
+
+###
+
+GET http://localhost:8080/csas/1 HTTP/1.1
+
+###
+
+GET http://localhost:8080/csas HTTP/1.1
+
+###
